@@ -1,0 +1,56 @@
+System.out.println("My name is Maria Jerome.");
+System.out.println("My designation is Systems Engineer.");
+
+
+System.out.println("My name is Maria Jerome.\n My designation is Systems Engineer.");
+
+
+
+ The first condition && The second condition 
+      true                  true   ========> true
+---------------------------------------------------------
+compound assignment operators==> multiple operations are taking place
+and with the operation of addition, subtraction, multiplication,
+assignment
+   +=,-=,*=,/=
+---------------------------------------------------------------------------------------
+// Iterations====> To repeat/recursive task
+
+  // 1) Counter needs to be initialised
+  // 2) Condition check decides whether to enter(for the first time)/within(second time onwards) the         loop 
+  // 3) Re-intialisation of the counter ( It decides whether to be within the loop or go 
+        outside the loop)
+
+* for loop
+   for(int i=0;i<10;i++) {
+    System.out.println(i);
+   }
+
+--------------------------------------------------------------------
+Entry point check ( while loop )
+* while loop
+   int i=0;     // i is acting as a counter and get initialised with 0
+   while(i<10)   // It enter the loop as i is less than 10
+    {
+     System.out.println(i); // performing the task within the loop
+     i++; // The counter i's value changes by 1 and control goes back to condition check (while(i<10))
+    }
+-------------------------------------------------------------------------------
+Exit point check ( do while {})
+
+* do while loop
+   int i=0;
+   do {
+       System.out.println(i);
+       i++;
+      }while(i<10);
+
+----------------------------------------------------------------------------------------------i
+
+
+
+
+-----------------------------------------------------------------------------------------
+
+  
+
